@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="">
+    <title>Mary-N</title>
+</head>
+<body>
+    <header>
+        <h1>The heart of worship</h1>
+
+        <nav>
+
+        </nav>
+    </header>
+
+
+    <main>
+        <form action="/submit-name">
+            <p>Please tell us your name if you dont mind.</p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="name">Email:</label>
+            <input type="text" id="email" name="email">
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <fieldset>
+            <legend>Choose only one of the following choices</legend>
+            <input type="radio" name="hobbies" id="sing" value="sing">
+            <label for="sing">Singing</label><br>
+            <input type="radio" name="hobbies" id="dance" value="dance">
+            <label for="dance">Dancing</label><br>
+            <input type="radio" name="hobbies" id="jump" value="jump">
+            <label for="jump">Jumping</label>
+        </fieldset>
+
+        <p>Which date do you prefer to do the above</p>
+        <form action="/submit-date">
+            <label for="preferred-date">Preferred Date:</label>
+            <input type="date" name="date" id="preferred-date">
+            <input type="submit" value="Submit" name="submit">
+        </form>
+
+    </main>
+
+
+    <footer>
+        <h3>@copyright Mary-N</h3>
+        <!-- <br> -->
+    </footer>    
+</body>
+</html>
